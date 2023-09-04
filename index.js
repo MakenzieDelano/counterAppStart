@@ -7,7 +7,7 @@ let countEl = document.querySelector("#count-el")
 let count = 0
 
 incrementBtn.onclick = function increment() {
-    count =+ 1
+    count = count + 1
     countEl.textContent = count
 }
 
